@@ -1,5 +1,4 @@
 RewriteEngine On
 
-RewriteRule ^nexistepas\.html$ /test.html [L]
-RewriteRule ^avatar\.png$ /avatar.php [L]
+RewriteRule ^avatar\.png$ avatar.php [L]
 RewriteRule ^(.+)/avatar\.png$ avatar.php?taille=$1 [L]
